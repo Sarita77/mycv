@@ -1,0 +1,251 @@
+/***********************Universal CSS***********************/
+
+/*Universal CSS*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+.padding-up-down {
+    padding: 0 0 20px 0;
+}
+
+.navbar, footer {
+    padding: 10px 0;
+}
+
+/* ********Home Page CSS******** */
+
+/*Header CSS*/
+
+.logo, .nav-heading {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+.navbar-nav .nav-bar-item .a {
+    text-transform: uppercase;
+}
+
+.navbar-bg-black {
+    background: #000;
+}
+
+.navbar-nav li a, .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover, .nav-link:hover {
+    color: #57D748 !important;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a {
+    font-size: 16px;
+    text-indent: 2cm;
+}
+
+.see-more-btn {
+    background: #57D748;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.see-more-btn:hover {
+    background: #580087;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-outline-white {
+    color: #fff;
+    border: 1px solid #fff;
+    background: #000;
+}
+
+.btn-outline-white:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* Introduction section */
+
+.my-photo {
+    background: url("../img/photo.jpg") no-repeat center;
+    background-size: cover;
+    height: 450px;
+    margin-top: 65px;
+    filter: contrast(130%);
+}
+
+.my-photo, .frame-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.introduction .intro .name {
+    margin-top: 200px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+.dot {
+    color: #57D748;
+}
+
+/* Welcome section CSS */
+
+.welcome {
+    background: #000;
+    color: #fff;
+}
+
+.welcome h2 {
+    color: #57D748;
+}
+
+/* Contact section CSS */
+
+.contact-me i {
+    border: 2px solid #57D748;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.contact-me .fa-facebook:hover {
+    color: #4267B2;
+}
+
+.contact-me .fa-instagram:hover {
+    color: #EB3E37;
+}
+
+.contact-me .fa-linkedin:hover {
+    color: #004B7C;
+}
+
+.contact-me .fa-home:hover {
+    color: #F669BF;
+}
+
+.contact-me .fa-mobile:hover {
+    color: darkorange;
+}
+
+.contact-me .fa-envelope:hover {
+    color: #C03B2B;
+}
+
+.contact-me a {
+    color: #000;
+}
+
+/* Footer section CSS */
+
+footer {
+    background: #000;
+    align-content: center
+}
+
+footer a, .brand i {
+    color: #57D748;
+}
+
+footer .copyright {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer i {
+    color: #57D748;
+}
+
+.mywork {
+    width: 100%;
+    max-height: 900px;
+}
+
+/* ********Portfolio CSS******** */
+
+.frame-box {
+    height: 600px;
+}
+
+.frame-box-2 {
+    height: 400px;
+}
+
+.myPortfolio {
+    margin-top: 70px;
+}
+
+.portfolio-1 {
+    background: url('../img/portfolio/top-black.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.portfolio-2 {
+    background: url('../img/portfolio/explore-our-galleries.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.portfolio-6 {
+    background: url('../img/portfolio/top-orange.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.portfolio-3 {
+    background: url('../img/portfolio/gallery-section.PNG') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.portfolio-4 {
+    background: url('../img/portfolio/top.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.portfolio-5 {
+    background: url('../img/portfolio/under_construction.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+/*********************** Responsive CSS***********************/
+
+@media screen and (max-width: 640px) {
+    .contact-me p {
+        word-break: break-all;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-nav .navbar-item {
+        margin-left: -15%;
+    }
+    .introduction .intro .name {
+        margin-top: 200px;
+    }
+    .frame-box {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .navbar-nav .navbar-item {
+        margin-left: -10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-heading {
+        margin-left: 15px;
+    }
+}
